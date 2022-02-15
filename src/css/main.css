@@ -130,8 +130,8 @@ nav {
 }
 
 .flex div {
-  margin: 100px;
-  width: 50%;
+  margin: 50px;
+  width: 400px;
 }
 
 .flex div h2, .flex div p {
@@ -156,6 +156,58 @@ span {
   color: #fff;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #272f2b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #918CC3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.about-me {
+  height: 50vh;
+  width: 100%;
+}
+
+.info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.info div {
+  width: 40%;
+  margin: 0 100px;
+}
+
+.info div h2 {
+  color: #fff;
+  text-align: left;
+  font-weight: 150;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.info div p {
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
@@ -164,6 +216,19 @@ span {
   .menu {
     display: flex;
   }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.links {
+  color: #918CC3;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.links:hover {
+  font-size: 18px;
+  transition: 0.4s;
 }
 
 /*# sourceMappingURL=main.css.map */
