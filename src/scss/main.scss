@@ -75,7 +75,7 @@ nav {
 .hamburger:hover span:nth-child(2) {
     transform: translateX(10px);
     transition: .4s all;
-    background-color: #30C5FF;
+    background-color: #918CC3;
 }
 
 // X animation
@@ -96,7 +96,7 @@ nav {
 }
 
 .hamburger.active:hover span{
-    background-color: #30C5FF;
+    background-color: #918CC3;
 }
 
 .menu {
@@ -118,7 +118,7 @@ nav {
 }
 
 .menu a.active, .menu a:hover {
-    background-color: #30C5FF;
+    background-color: #918CC3;
 }
 
 .home-container {
