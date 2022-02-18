@@ -5,6 +5,7 @@ const allcontainer = document.getElementById('allcontainer');
 const clientscontainer = document.getElementById('clientscontainer');
 const nonclientscontainer = document.getElementById('nonclientscontainer');
 const allcontainer2 = document.getElementById('allcontainer2');
+const nonclientscontainer2 = document.getElementById('nonclientscontainer2');
 
 all.addEventListener('click', () => {
     allcontainer2.classList.remove('none');
@@ -14,6 +15,7 @@ all.addEventListener('click', () => {
     nonclients.classList.remove('activebutton');
     clientscontainer.classList.add('none');
     nonclientscontainer.classList.add('none');
+    nonclientscontainer2.classList.add('none');
 })
 
 clients.addEventListener('click', () => {
@@ -24,6 +26,7 @@ clients.addEventListener('click', () => {
     nonclients.classList.remove('activebutton');
     allcontainer.classList.add('none');
     nonclientscontainer.classList.add('none');
+    nonclientscontainer2.classList.add('none');
 })
 
 nonclients.addEventListener('click', () => {
@@ -34,5 +37,6 @@ nonclients.addEventListener('click', () => {
     nonclients.classList.add('activebutton');
     allcontainer.classList.add('none');
     clientscontainer.classList.add('none');
+    nonclientscontainer2.classList.remove('none');
 })
 
