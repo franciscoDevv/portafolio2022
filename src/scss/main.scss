@@ -3,6 +3,8 @@
 @import 'scrollbar';
 @import 'about';
 @import 'responsive';
+@import 'overlay';
+@import 'projects';
 $primary: #272F3B;
 $white: #fff;
 
@@ -19,4 +21,5 @@ html {
         transition: .4s;
     }
 }
+
 

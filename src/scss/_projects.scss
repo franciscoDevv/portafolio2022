@@ -1,0 +1,46 @@
+.projects {
+    height: 80vh;
+    margin-top: 200px;
+    display: flex;
+    flex-direction:  column;
+    align-items: left;
+    padding: 0 90px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Raleway';
+    background-color: #918CC3;
+    margin: 5px;
+    transition: .4s;
+}
+
+button.activebutton {
+    filter: brightness(70%);
+    transition: .4s;
+}
+
+.images-container {
+    margin-left: -15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.images-container div {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.image {
+    height: 200px;
+    width: 191px;
+}
+
+.none {
+    display: none;
+}
